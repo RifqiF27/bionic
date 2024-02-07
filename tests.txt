@@ -1,0 +1,45 @@
+3. SQL
+Result_1
+select a."item"
+from "ASSET" a
+join "User" u 
+on a.user_id= u."user_id" 
+where a.user_id= 'wildan';
+
+
+F.
+Cypress = Merupakan sebuah framework untuk mengetes hasil development kita dari sisi front end, sama seperti JEST pada testing back end
+
+Kubernetes = sebuah platform manajemen kontainer, biasanya sebuah service dalam app kita dibungkus dalam kontainer agar tidak terjadi perbedaan environment.
+Kubernetes memungkinkan pengguna untuk mengelola, men-deploy, dan mengatur aplikasi yang berjalan di dalam wadah secara terdistribusi. Kubernetes menjalankan aplikasi dengan efisien di lingkungan produksi.
+
+ORM = Tools untuk memudahkan kita dalam memanipulasi sebuah data dari database dan relasi nya.
+
+class = merupakan sebuah template dalam membuat sebuah data berupa objek
+
+function = merupakan sebuah sub program dimana akan menjalankan program tertentu secara spesifik ketika dipanggil
+
+DevOp = merupakan sebuah sistem untuk mengintegrasikan antara development dengan operasional
+
+Docker = sebuah platform manajemen kontainer, biasanya sebuah service dalam app kita dibungkus dalam kontainer agar tidak terjadi perbedaan environment.
+docker memungkinkan pengguna untuk mengelola, men-deploy, dan mengatur aplikasi yang berjalan di dalam kontainer secara terdistribusi. docker menjalankan aplikasi dengan efisien di lingkungan lokal.
+
+
+G.
+1. Kubernetes
+Alasan:
+Microservices memungkinkan pengembangan dan penyebaran aplikasi secara independen, memfasilitasi skalabilitas dan perbaikan yang lebih cepat.
+Kubernetes menyediakan orkestrasi kontainer yang kuat, memungkinkan manajemen yang efisien, otomatisasi, dan penyebaran aplikasi yang skalabel.
+Serverless Architecture:
+
+2. AWS Lambda, Azure Functions, atau Google Cloud Functions
+Alasan:
+Serverless menghilangkan kebutuhan untuk mengelola infrastruktur, dan hanya membayar untuk eksekusi kode, meningkatkan efisiensi dan mengurangi biaya.
+Fungsi serverless dari penyedia cloud besar seperti AWS Lambda menyediakan penanganan otomatis terhadap lalu lintas dan skalabilitas yang baik.
+Monolithic Architecture:
+
+3. Spring Boot (Java) atau Django (Python)
+Alasan:
+Monoliths menyederhanakan pengembangan dan pemeliharaan karena keseluruhan aplikasi terdapat dalam satu kodebasis.
+Spring Boot dan Django memberikan kerangka kerja yang kuat dan produktif untuk membangun monoliths, dengan alat dan fungsionalitas yang memudahkan pengembangan aplikasi secara menyeluruh.
+
