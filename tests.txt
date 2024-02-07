@@ -6,6 +6,13 @@ join "User" u
 on a.user_id= u."user_id" 
 where a.user_id= 'wildan';
 
+Result_2
+select u."user_id", STRING_AGG(a."item" , ', ') AS  asset
+from "User" u 
+join "Asset" a 
+on a.user_id = u."user_id" 
+group by u."user_id";
+
 
 F.
 Cypress = Merupakan sebuah framework untuk mengetes hasil development kita dari sisi front end, sama seperti JEST pada testing back end
